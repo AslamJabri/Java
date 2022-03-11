@@ -13,5 +13,23 @@ public class challenge1 {
         double  kg = 0.45359237d;
         double total = pound * kg;
         System.out.println("Total kilograms: "+total);
+
+
+        //challenge 3 operator
+        double fNum = 20.00;
+        double sNum = 80.00;
+        double result = (fNum + sNum)*100;
+        System.out.println(result);
+        double reminder = result % 40;
+        System.out.println(reminder);
+        boolean check = (reminder == 0) ? true : false;
+        System.out.println(check);
+        if (!check){
+            System.out.println("Got Some Remainder");
+        }
+
+
+
+
     }
 }
