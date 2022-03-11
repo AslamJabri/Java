@@ -42,6 +42,46 @@ public class primitive {
         System.out.println("Char: "+ myChar );
         System.out.println("Unicode: "+ myUnicode);
 
+        //not a primitive but mostly used
+        String myString = "This is a new String.";
+        myString = myString + " This is also a new string";
+        System.out.println(myString);
+        String myNum = "10";
+        int myInt = 15;
+        System.out.println("The output of int and string: "+ myNum + myInt);
+
+
+        boolean isALien = false;
+        if (isALien == false){
+	    System.out.println("It is not alien");
+        System.out.println("True it is not an Alien");
+        }
+
+        int myfNum = 30;
+        int mysNum = 50;
+        if (myfNum > 100){
+            System.out.println("This is greater than 100");
+        }
+        if (myfNum < 50){
+            System.out.println("This is less than 50");
+        }
+        if ((myfNum >=30) && (mysNum <= 50)){
+            System.out.println("Both conditions should be true");
+        }
+        if ((myfNum <=30) || (mysNum <= 50)){
+            System.out.println("Either one  conditions should be true");
+        }
+
+        boolean myCar = true;
+        if (myCar){
+            System.out.println("This is short hand notation for mycar == true");
+        }
+        if (!myCar){
+            System.out.println("This is not operator and short hand notation");
+        }
+        int ageOfClient = 20;
+        boolean isEighteenOver = (ageOfClient == 20) ? true : false;
+        System.out.println(isEighteenOver);
     }
 }
 
