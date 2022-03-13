@@ -82,6 +82,19 @@ public class primitive {
         int ageOfClient = 20;
         boolean isEighteenOver = (ageOfClient == 20) ? true : false;
         System.out.println(isEighteenOver);
+
+        int gameScore = 0;
+        boolean gameOver = true;
+        int levelup = 5;
+        int bonus = 850;
+
+        if ((gameScore >= 5000) && (gameOver)){
+            System.out.println("The final Score: " + gameScore*bonus + " You are level "+ levelup++);
+        }else if ((gameScore < 4900 && gameScore > 4000) && (gameOver)){
+            System.out.println("Your score is " + gameScore );
+        }else{
+            System.out.println("Game Over");
+        }
     }
 }
 
