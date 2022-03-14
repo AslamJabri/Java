@@ -2,7 +2,19 @@ public class methodsChallenge {
     public static void main(String[] args){
         
         int position = calculateHighScorePosition(1000);
-        displayHighScore("aslam" , position);
+        displayHighScore("Tim" , position);
+
+        position = calculateHighScorePosition(800);
+        displayHighScore("kim", position);
+
+        position = calculateHighScorePosition(40);
+        displayHighScore("Tam", position);
+
+        position = calculateHighScorePosition(200);
+        displayHighScore("San", position);
+
+        position = calculateHighScorePosition(1500);
+        displayHighScore("Hope", position);
     }
 
 
