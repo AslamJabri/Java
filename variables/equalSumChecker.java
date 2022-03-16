@@ -10,6 +10,7 @@ public class equalSumChecker {
         }
         return false;
     }
+    //teen challenge
     public static boolean hasTeen(int i ,int j ,int k){
         if ((i >=13 && i <= 19)|| (j >=13 && j <= 19)||(k >=13 && k <=19)){
             return true;
