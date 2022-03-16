@@ -18,7 +18,7 @@ public class methodOverloading {
         if (inches >= 0 ){
             double feet = (int) inches/12;
             double remInche = (int) inches%12;
-            System.out.println("The conversion of "+ inches +" into feet is "+ feet + " ft" +" and the remaining inches is "+ remInche);
+            System.out.println("The conversion of "+ inches +" into feet is "+ feet + " ft" +" "+ remInche + " Inch.");
             return calcFeetandInchesToCent(feet, remInche);
         }
         return -1;
