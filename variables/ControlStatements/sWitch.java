@@ -2,7 +2,7 @@ package ControlStatements;
 
 public class sWitch {
     public static void main(String[] args) {
-        char newChar = 'D';
+        char newChar = 'C';
         switch(newChar){
             case 'A':
                 System.out.println("This is A");
@@ -11,7 +11,7 @@ public class sWitch {
                 System.out.println("This is B");
                 break;
             case 'C':case 'D': case 'E':
-                System.out.println("This is C , D ,E" + " This is the char value " +newChar + ". ");
+                System.out.println("This is C , D ,E case and " + " This is the char value " +newChar + ". ");
                 break;
             
             default:
