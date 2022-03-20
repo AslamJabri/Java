@@ -10,8 +10,8 @@ public class forLoop {
             System.out.println("10000 at " + i +"% intrest = " + String.format("%.2f",calculateIntrest(10000.0, i)));
            
         }
-        
-        for (int i = 0; i <= 100 ; i++){
+        int even = 100;
+        for (int i = 0; i <= even ; i++){
             if (i % 2 == 0){
                 System.out.println(i);
             }
