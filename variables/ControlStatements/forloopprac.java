@@ -37,7 +37,8 @@ public class forloopprac {
             if(sHcf%s == 0){
                 System.out.println(s);
             }
-        } 
+        }
+        
 
     }
 }
