@@ -6,15 +6,25 @@ public class sumEven {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your birth year: ");
-        int yearOfbirth = scanner.nextInt();
-        int age = 2022 - yearOfbirth;
-        scanner.nextLine();
+        boolean hasNext = scanner.hasNextInt();
+
+        if(hasNext){
         
+            int yearOfbirth = scanner.nextInt();
+            scanner.nextLine();
+            System.out.println("Enter your name: ");
+            String name = scanner.nextLine();
+            int age = 2022 - yearOfbirth;
+           
+            if(age >=0 && age <= 100){
+                System.out.println("Your name is "+ name + ", and your  "+ age + " years old.");
+            }else{
+                System.out.println("Invalid Value");
+            }
+        } else {
+            System.out.println("Unable to parse the year birth.");
+        }
 
-        System.out.println("Enter your name: ");
-        String name = scanner.nextLine();
-
-        System.out.println("Your name is "+ name + ", and your  "+ age + " years old.");
         scanner.close();
 
 
