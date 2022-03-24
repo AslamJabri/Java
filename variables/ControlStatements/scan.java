@@ -16,9 +16,9 @@ public class scan {
         }else{
             do{
                 scanner.nextLine();
-                System.out.println("Enter the number #:" + i);
+                System.out.println("Enter the number #" + i +":");
                 add = scanner.nextInt();
-                sumadd =sumadd+ add;
+                sumadd += add;
                 i++;
             }
             while(i <=10);
