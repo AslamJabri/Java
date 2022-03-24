@@ -1,7 +1,23 @@
 package ControlStatements;
 
+import java.util.Scanner;
+
 public class sumEven {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter your birth year: ");
+        int yearOfbirth = scanner.nextInt();
+        int age = 2022 - yearOfbirth;
+        scanner.nextLine();
+        
+
+        System.out.println("Enter your name: ");
+        String name = scanner.nextLine();
+
+        System.out.println("Your name is "+ name + ", and your  "+ age + " years old.");
+        scanner.close();
+
+
         System.out.println(getEvenDigitSum(122334));
         System.out.println(hasSharedDigit(22, 23));
     }
@@ -34,4 +50,5 @@ public class sumEven {
         }
         return false;
     }
+    
 }
